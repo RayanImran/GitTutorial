@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors </title>
+    <style>
+        .container{
+            border:2px solid red;
+            background-color:brown;
+            padding: 34px;
+            margin: 34px auto;
+            width:666px;
+        }
+        .btn{
+            background-color: blue;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:visited{
+            color: white;
+        }
+        a:active{
+            color:red;
+        }
+        a:hover{
+            color: green;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ducimus quae eius ut, voluptate laboriosam quasi perspiciatis repudiandae fugit odit ipsum eveniet odio ea natus? Nihil error eveniet eligendi et nemo optio exercitationem ullam!</p>
+        <a href="https://www.google.com/search?q=googl&rlz=1C1CHZN_enPK954PK954&sxsrf=ALeKk03MCeWEwElF8JGjZIPYoNXNmYjLMA%3A1626470532961&ei=hPjxYJqLOseIabDNpcAK&oq=googl&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyCggAELEDEIMBEEMyCwgAELEDEIMBEJECMgoIABCxAxCDARBDMg0IABCxAxCDARDJAxBDMgUIABCSAzIFCAAQkgMyBwgAELEDEEM6BAguEEM6CAgAELEDEIMBOgUIABCxAzoFCC4QkQI6BAgAEEM6CgguEMcBEKMCEEM6BQgAEJECSgQIQRgAUOfcI1i75CNglecjaABwAHgAgAHnAogB7AqSAQcwLjEuNC4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwia3erywujxAhVHRBoKHbBmCagQ4dUDCA4&uact=5"class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
