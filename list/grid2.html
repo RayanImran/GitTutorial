@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Css</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center; */
+            grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        }
+        .box{
+            border: 2px solid rgb(85, 61, 61);
+            background-color: blanchedalmond;
+            padding: 34px;
+            
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1tem-1</div>
+        <div class="box">1tem-2</div>
+        <div class="box">1tem-3</div>
+        <div class="box">1tem-4</div>
+        <div class="box">1tem-5</div>
+        <div class="box">1tem-6</div>
+        <div class="box">1tem-7</div>
+        <div class="box">1tem-8</div>
+        <div class="box">1tem-9</div>
+        <div class="box">1tem-10</div>
+        <div class="box">1tem-11</div>
+        <div class="box">1tem-12</div>
+    </div>
+</body>
+</html>
